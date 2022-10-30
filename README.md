@@ -1,5 +1,5 @@
 
->> How to add new badges:
+> How to add new badges:
 
 > Add the factions in AxConfig.factions and copy the variables the add your image as in the example
 
