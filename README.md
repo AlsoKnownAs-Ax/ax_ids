@@ -1,5 +1,8 @@
 Video Preview: https://www.youtube.com/watch?v=Y3AJ61aSfZM&ab_channel=AlsoKnownAsAx
 
+## Visitor Count
+  <img src="https://profile-counter.glitch.me/ax_ids/count.svg" />
+
 -------------------------------------------------------------------------------------
 
 > How to add new badges:
