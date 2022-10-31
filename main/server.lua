@@ -29,9 +29,9 @@ ax_ids = function(source)
 
             vRPclient.getNearestPlayers(player,{AxConfig.show_radius},function(nplayers)
                 for i,_ in pairs(nplayers) do
-                    TriggerClientEvent('ax_ids:showBadge',i, {faction = faction, name = cache[user_id].firstname, secondname = cache[user_id].name, rank = actualRank, owner = player})
+                    TriggerClientEvent('ax_ids:showBadge',i, {faction = faction, name = cache[user_id].firstname, secondname = cache[user_id].secondname, rank = actualRank, owner = player})
                 end
-                TriggerClientEvent('ax_ids:showBadge',player, {faction = faction, name = cache[user_id].firstname, secondname = cache[user_id].name, rank = actualRank, owner = player})
+                TriggerClientEvent('ax_ids:showBadge',player, {faction = faction, name = cache[user_id].firstname, secondname = cache[user_id].secondname, rank = actualRank, owner = player})
             end)
         end
     end}
