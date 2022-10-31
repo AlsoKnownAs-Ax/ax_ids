@@ -6,6 +6,8 @@ AxConfig.show_radius = 10 -- Radius to show the ID card
 
 AxConfig.Debug = false -- Debug
 
+AxConfig.name_query = "SELECT firstName,secondName FROM vrp_users WHERE id = @user_id" --// Query Settings
+
 AxConfig.factions = { 
     ["Politie"] = {
        --// If you don`t know what you are doing , don`t touch this //
