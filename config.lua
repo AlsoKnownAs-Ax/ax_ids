@@ -28,7 +28,7 @@ AxConfig.factions = {
         photo_width = 0.049,
         photo_height = 0.077,
         --==================== -> Player Name Settings <- =================================--
-        player_name = false,
+        player_name = true,
         name_pos = vector2(0.010, -0.096),
         name_scale = 0.3,
         name_color = vector4(65, 105, 225, 255),
