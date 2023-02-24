@@ -78,8 +78,8 @@ AxConfig.factions = {
         --======================== -> Badge Settings <- ===================================--
         item_weight = 0.5,
         badge_position = vector2(0.85, 0.65), --// Badge position on the screen (x,y)
-        badge_width = 0.28,
-        badge_height = 0.49,
+        badge_width = 0.22,
+        badge_height = 0.43,
         --==================== -> Player Photo Settings <- ================================--
         player_photo = false,
         player_photo_pos = vector2(0.0687, -0.138),
