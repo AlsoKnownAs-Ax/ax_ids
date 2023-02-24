@@ -20,22 +20,22 @@ AxConfig.factions = {
         --======================== -> Badge Settings <- ===================================--
         item_weight = 0.5,
         badge_position = vector2(0.75, 0.55), --// Badge position on the screen (x,y)
-        badge_width = 0.28,
-        badge_height = 0.49,
+        badge_width = 0.24,
+        badge_height = 0.45,
         --==================== -> Player Photo Settings <- ================================--
         player_photo = true,
-        player_photo_pos = vector2(0.0687, -0.138),
-        photo_width = 0.049,
-        photo_height = 0.077,
+        player_photo_pos = vector2(0.0597, -0.1265),
+        photo_width = 0.043,
+        photo_height = 0.071,
         --==================== -> Player Name Settings <- =================================--
         player_name = true,
-        name_pos = vector2(0.010, -0.096),
-        name_scale = 0.3,
+        name_pos = vector2(0.010, -0.091),
+        name_scale = 0.28,
         name_color = vector4(65, 105, 225, 255),
         --==================== -> Player Signature Settings <- ============================--
         signature = true,
-        signature_pos = vector2(-0.105, 0.145),
-        signature_scale = 0.51,
+        signature_pos = vector2(-0.085, 0.135),
+        signature_scale = 0.49,
         signature_color = vector4(25, 25, 112, 255) 
     },
     ["Smurd"] = {
@@ -49,16 +49,16 @@ AxConfig.factions = {
         --==========================================================--
         item_weight = 0.5,
         badge_position = vector2(0.75, 0.55), --// Badge position on the screen (x,y)
-        badge_width = 0.28,
-        badge_height = 0.30,
+        badge_width = 0.24,
+        badge_height = 0.26,
         --==================== -> Player Photo Settings <- ================================--
         player_photo = true,
-        player_photo_pos = vector2(0.0759, 0.035),
-        photo_width = 0.098,
-        photo_height = 0.181,
+        player_photo_pos = vector2(0.0659, 0.029),
+        photo_width = 0.086,
+        photo_height = 0.160,
         --==================== -> Player Name Settings <- =================================--
-        player_name = false,
-        name_pos = vector2(-0.040, -0.117),
+        player_name = true,
+        name_pos = vector2(-0.040, -0.107),
         name_scale = 0.3,
         name_color = vector4(201, 185, 6, 255),
         --==================== -> Player Signature Settings <- ============================--
