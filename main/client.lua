@@ -27,11 +27,12 @@ CreateThread(function()
 	print("ax_ids : Loaded Successfully")
 end)
 
-
+local inUse = false
 
 RegisterNetEvent('ax_ids:showBadge')
 AddEventHandler('ax_ids:showBadge',function(data)
 Debugprint("Joined the event")
+if inUse then return end
 while not loaded do Wait(150) end
     local waitEnded = false
     if type(data) == 'table' then
@@ -69,6 +70,7 @@ while not loaded do Wait(150) end
                     end
                  --============================= Config Storage ==============================--
                     CreateThread(function()
+                        inUse = true
                         while not waitEnded do
                             Wait(1)
                             DrawSprite(data.faction.."_badge", data.faction.."_badge", pos, badge_width, badge_height, 0.0, Color)
@@ -92,6 +94,7 @@ while not loaded do Wait(150) end
                     Wait(AxConfig.showtime)
                     UnregisterPedheadshot(pedHeadshot)
                     waitEnded = true
+                    inUse = false
                 end
             else
                 Debugprint("ax_ids: You have triggered a Badge Event without any owner")
