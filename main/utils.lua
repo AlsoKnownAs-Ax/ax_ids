@@ -37,8 +37,8 @@ playingAnim = false
 
 ShowBadge = function(faction,player)
     -- [[ Badge Animation ]]
-    CreateThread(function()
-        if PlayerPedId() == GetPlayerPed(GetPlayerFromServerId(player)) then --[[ Not triggering the function for non Badge Owners ]]
+	if PlayerPedId() == GetPlayerPed(GetPlayerFromServerId(player)) then --[[ Not triggering the function for non Badge Owners ]]
+    	CreateThread(function()
            if not playingAnim then --[[ Anti Spam so it doesn`t get bugged randomly ]]
                 playingAnim = true
                 local prop_model = AxConfig.factions[faction].prop_name
@@ -66,8 +66,9 @@ ShowBadge = function(faction,player)
                 playingAnim = false
                 Debugprint("PlayingAnim == false , object Deleted")
             end
-        end
-    end)
+			Wait(650)
+    	end)
+	end
 end
 
 
