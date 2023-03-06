@@ -85,14 +85,9 @@ while not loaded do Wait(150) end
                             end
                         end
                     end)
-                    Debugprint("Drawed")
-                    Wait(3000)
-                    DeleteEntity(ax_IdProp)
-                    Wait(500)
+                    Wait(3500)
                     ClearPedTasks(PlayerPedId())
-                    
                     Wait(AxConfig.showtime)
-                    UnregisterPedheadshot(pedHeadshot)
                     waitEnded = true
                     inUse = false
                 end
